@@ -74,15 +74,15 @@ h1 img {width: 100%;}
 @media screen and (min-width: 768px) and (max-width: 1366px){
 	label.search, label.menu {width: 30px; height: 30px; position: absolute; top: 13px;
 		text-indent: -6000px; overflow: hidden;}
-	label.menu {background: url('/images/btn_t_menu.png'); left: 13px;}
-	label.search{background: url('/images/btn_t_search.png'); right: 13px;}
+	label.menu {background: url('images/btn_t_menu.png'); left: 13px;}
+	label.search{background: url('images/btn_t_search.png'); right: 13px;}
 }
 
 /*토글 버튼 : 모바일*/
 @media screen and (max-width: 767px){
 	label.search, label.menu{width: 22px; height: 22px; position: absolute;	top: 10px; text-indent: -6000px; overflow: hidden;}
-	label.menu{background: url(../images/btn_t_menu.png); background-size: 100%; left: 15px;}
-	label.search{background: url(../images/btn_t_search.png); background-size: 100%; top : 12px; right: 15px;	}
+	label.menu{background: url('images/btn_t_menu.png'); background-size: 100%; left: 15px;}
+	label.search{background: url('images/btn_t_search.png'); background-size: 100%; top : 12px; right: 15px;	}
 }
 
 /* 검색 영역 : PC */
@@ -270,7 +270,7 @@ h1 img {width: 100%;}
 	label.btn_close{
 		display: block;
 		width: 20px; height: 20px;
-		background: url(../images/btn_close.png) no-repeat;
+		background: url('images/btn_close.png') no-repeat;
 		background-size: 100%;
 
 		position: absolute;
