@@ -282,7 +282,7 @@ button.btn_prev {left: -35px; background: url('images/btn_prev_n.png'); backgrou
 
 
 /* 제품 추천 */
-#con_find {width: 100%; height: 600px; background-image: url('/images/background.jpg');
+#con_find {width: 100%; height: 600px; background-image: url('images/background.jpg');
 	background-position: center; background-size: cover; background-repeat: no-repeat; background-attachment: fixed;}
 .find_text {color: #fff; text-align: center; padding-top: 240px;}
 .find_text > h2 {font-size: 50px; font-weight: 500; letter-spacing: 1px;}
@@ -292,7 +292,7 @@ button.btn_prev {left: -35px; background: url('images/btn_prev_n.png'); backgrou
 .find_view:hover {border: 1px solid #999; transition-duration: 0.3s;}
 
 @media screen and (max-width: 767px){
-	#con_find{margin-top: 10px; width: 100%; height: 300px; background-image: url('/images/background.jpg');
+	#con_find{margin-top: 10px; width: 100%; height: 300px; background-image: url('images/background.jpg');
 		background-position: center; background-size: 100%; background-repeat: no-repeat; background-attachment: fixed;}
 	.find_text{color: #fff; text-align: center; padding-top: 100px;}
 	.find_text > h2{font-size: 23px; font-weight: 400; letter-spacing: 1px;}
