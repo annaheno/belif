@@ -252,7 +252,7 @@ button.btn_prev {left: -35px; background: url('images/btn_prev_a.png'); backgrou
 }
 /* 신상품 : 태블릿 */
 @media screen and (min-width: 768px) and (max-width: 1366px){
-    #new_products {height: 900px;}
+    #new_products {width : 600px; height: 900px;}
     #gallery_wrap {margin: 0 auto; width: 500px; position: relative;}
     .slider-pager li {display: none;}
     .slide_gallery {position: relative;}
