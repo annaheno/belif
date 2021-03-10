@@ -12,7 +12,7 @@ $(function () {
 			});
 		} else {
 			$("button.btn_next").css({
-				background: "url(../images/btn_next_a.png"
+				background: "url(images/btn_next_a.png"
 			});
 		}
 	}, 20);
