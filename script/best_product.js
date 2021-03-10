@@ -19,7 +19,7 @@ $(function () {
 
 	$("button.btn_next").click(function () {
 		$("button.btn_prev").css({
-			background: "url(../images/btn_prev_a.png)"
+			background: "url(images/btn_prev_a.png)"
 		});
 		leftValue -= 220;
 		if (leftValue <= -maxLeft) {
@@ -35,7 +35,7 @@ $(function () {
 
 	$("button.btn_prev").click(function () {
 		$("button.btn_next").css({
-			background: "url(../images/btn_next_a.png)"
+			background: "url(images/btn_next_a.png)"
 		});
 		leftValue += 220;
 		if (leftValue >= 0) {
