@@ -77,8 +77,8 @@ section > h3 > span {font-size: 14px;}
 
 	/* 메뉴토글 버튼 */
 	label.search, label.menu {width: 30px; height: 30px; position: absolute; top: 13px; text-indent: -9999px; overflow: hidden;}
-	label.menu {background: url('images/btn_t_menu.png'); left: 13px;}
-	label.search {background: url('images/btn_t_search.png'); right: 13px;}
+	label.menu {background: url('/images/btn_t_menu.png'); left: 13px;}
+	label.search {background: url('/images/btn_t_search.png'); right: 13px;}
 
 	/* 검색 토글 */
 	input#toggle_search + #search_wrap {width: 100%; height: 0; background: #fff; position: absolute;
@@ -101,7 +101,7 @@ section > h3 > span {font-size: 14px;}
 
 	label.search, label.menu{width: 22px; height: 22px; position: absolute;	top: 10px; text-indent: -6000px; overflow: hidden;}
 	label.menu{background: url('images/btn_t_menu.png'); background-size: 100%; left: 15px;}
-	label.search{background: url('images/btn_t_search.png'); background-size: 100%; top : 12px; right: 15px;}
+	label.search{background: url('/images/btn_t_search.png'); background-size: 100%; top : 12px; right: 15px;}
 
 	/* 검색 토글 */
 	input#toggle_search + #search_wrap {width: 100%; height: 0; background: #fff; position: absolute; left: 0; top: 44px; overflow: hidden; transition-duration: 0.3s;}
@@ -191,7 +191,7 @@ section > h3 > span {font-size: 14px;}
 
 /* PC : 제품 이미지 hover 효과*/
 @media screen and (min-width: 1367px) {
-	.best > ul > li > a > img {	transform: scale(1.0, 1.0); transition-duration: 0.3s;}
+	.best > ul > li > a > img {transform: scale(1.0, 1.0); transition-duration: 0.3s;}
 	.best > ul > li:hover > a > img {transform: scale(1.1, 1.1);}
 }
 
@@ -212,8 +212,8 @@ section > h3 > span {font-size: 14px;}
 
 /* 베스트 상품 : 슬라이드 버튼*/
 button.btn_next, button.btn_prev {position: absolute; top: 104px; width: 20px; height: 28px; cursor: pointer; z-index: 9998;}
-button.btn_next {right: -35px; background: url('images/btn_next_a.png'); background-size : 20px 28px;}
-button.btn_prev {left: -35px; background: url('images/btn_prev_n.png'); background-size : 20px 28px;}
+button.btn_next {right: -35px; background: url('/images/btn_next_a.png'); background-size : 20px 28px;}
+button.btn_prev {left: -35px; background: url('/images/btn_prev_n.png'); background-size : 20px 28px;}
 
 /* 베스트 상품 : 텍스트*/
 .best > ul > li > a {text-align: center;}
@@ -282,7 +282,7 @@ button.btn_prev {left: -35px; background: url('images/btn_prev_n.png'); backgrou
 
 
 /* 제품 추천 */
-#con_find {width: 100%; height: 600px; background-image: url('images/background.jpg');
+#con_find {width: 100%; height: 600px; background-image: url('/images/background.jpg');
 	background-position: center; background-size: cover; background-repeat: no-repeat; background-attachment: fixed;}
 .find_text {color: #fff; text-align: center; padding-top: 240px;}
 .find_text > h2 {font-size: 50px; font-weight: 500; letter-spacing: 1px;}
@@ -292,7 +292,7 @@ button.btn_prev {left: -35px; background: url('images/btn_prev_n.png'); backgrou
 .find_view:hover {border: 1px solid #999; transition-duration: 0.3s;}
 
 @media screen and (max-width: 767px){
-	#con_find{margin-top: 10px; width: 100%; height: 300px; background-image: url('images/background.jpg');
+	#con_find{margin-top: 10px; width: 100%; height: 300px; background-image: url('/images/background.jpg');
 		background-position: center; background-size: 100%; background-repeat: no-repeat; background-attachment: fixed;}
 	.find_text{color: #fff; text-align: center; padding-top: 100px;}
 	.find_text > h2{font-size: 23px; font-weight: 400; letter-spacing: 1px;}
@@ -339,7 +339,7 @@ button.btn_prev {left: -35px; background: url('images/btn_prev_n.png'); backgrou
 	#con_sns {display: block; height: 500px;}
 	#con_sns{width: 100%;}
     .sns_imgs{width: 100%;}
-	.sns_imgs > li{float: left;	width: 33.3%;}                   
+	.sns_imgs > li{float: left; width: 33.3%;}                   
 	.sns_imgs > li > img{width: 100%;}
 	.sns6{margin-bottom: 100px;}
 }
