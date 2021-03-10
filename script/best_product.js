@@ -12,7 +12,7 @@ $(function () {
 			});
 		} else {
 			$("button.btn_next").css({
-				background: "url(images/btn_next_a.png"
+				background: "url(/images/btn_next_a.png"
 			});
 		}
 	}, 20);
@@ -25,7 +25,7 @@ $(function () {
 		if (leftValue <= -maxLeft) {
 			leftValue = -maxLeft;
 			$("button.btn_next").css({
-				background: "url(images/btn_next_n.png)"
+				background: "url(/images/btn_next_n.png)"
 			});
 		}
 		$(".best_product > .best > ul").css({
@@ -35,13 +35,13 @@ $(function () {
 
 	$("button.btn_prev").click(function () {
 		$("button.btn_next").css({
-			background: "url(images/btn_next_a.png)"
+			background: "url(/images/btn_next_a.png)"
 		});
 		leftValue += 220;
 		if (leftValue >= 0) {
 			leftValue = 0;
 			$("button.btn_prev").css({
-				background: "url(images/btn_prev_n.png)"
+				background: "url(/images/btn_prev_n.png)"
 			});
 		}
 		$(".best_product > .best > ul").css({
