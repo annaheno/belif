@@ -25,7 +25,7 @@ $(function () {
 		if (leftValue <= -maxLeft) {
 			leftValue = -maxLeft;
 			$("button.btn_next").css({
-				background: "url(images/btn_next_n.png)"
+				background: "url(images/btn_next_a.png)"
 			});
 		}
 		$(".best_product > .best > ul").css({
