@@ -12,14 +12,14 @@ $(function () {
 			});
 		} else {
 			$("button.btn_next").css({
-				background: "url(/images/btn_next_a.png"
+				background: "url(images/btn_next_a.png"
 			});
 		}
 	}, 20);
 
 	$("button.btn_next").click(function () {
 		$("button.btn_prev").css({
-			background: "url(/images/btn_prev_n.png)"
+			background: "url(images/btn_prev_n.png)"
 		});
 		leftValue -= 220;
 		if (leftValue <= -maxLeft) {
